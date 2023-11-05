@@ -14,7 +14,7 @@ export default function AboutLayout({
 }) {
   return (
     <section className={s.about}>
-      <h1>About me</h1>
+      <h1>Original author info</h1>
       <section className={s.details}>
         <nav className={s.aboutNav}>
           <Link href="/about">Brief</Link>

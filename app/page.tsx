@@ -4,14 +4,14 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <section className={styles.main}>
-      <p>My Next base app&nbsp;</p>
+      <p>Kamajor&apos;s Next base app&nbsp;</p>
       <div>
         <a
           href="https://github.com/KamajorQA"
           target="_blank"
           rel="noopener noreferrer"
         >
-          My GitHub:
+          Original author:
           <Image
             src="/icons/gitHub.svg"
             alt="GitHub link"
@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        Built on: &nbsp;
+        bootstrapped with: &nbsp;
         <Image
           className={styles.logo}
           src="/next.svg"
